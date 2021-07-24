@@ -13,6 +13,7 @@
 		5B328AFB24EAFEE9009DA578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B328AFA24EAFEE9009DA578 /* Assets.xcassets */; };
 		5B328AFE24EAFEE9009DA578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B328AFD24EAFEE9009DA578 /* Preview Assets.xcassets */; };
 		5B328B0124EAFEE9009DA578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B328AFF24EAFEE9009DA578 /* LaunchScreen.storyboard */; };
+		5B328B0A24EB0403009DA578 /* SFProDisplayMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B328B0924EB0403009DA578 /* SFProDisplayMedium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5B328AFD24EAFEE9009DA578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B328B0024EAFEE9009DA578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B328B0224EAFEE9009DA578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B328B0924EB0403009DA578 /* SFProDisplayMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProDisplayMedium.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5B328AF324EAFED9009DA578 /* SteveCard */ = {
 			isa = PBXGroup;
 			children = (
+				5B328B0824EB037F009DA578 /* fonts */,
 				5B328AF424EAFED9009DA578 /* AppDelegate.swift */,
 				5B328AF624EAFED9009DA578 /* SceneDelegate.swift */,
 				5B328AF824EAFED9009DA578 /* ContentView.swift */,
@@ -73,6 +76,15 @@
 				5B328AFD24EAFEE9009DA578 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B328B0824EB037F009DA578 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5B328B0924EB0403009DA578 /* SFProDisplayMedium.ttf */,
+			);
+			name = fonts;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +148,7 @@
 				5B328B0124EAFEE9009DA578 /* LaunchScreen.storyboard in Resources */,
 				5B328AFE24EAFEE9009DA578 /* Preview Assets.xcassets in Resources */,
 				5B328AFB24EAFEE9009DA578 /* Assets.xcassets in Resources */,
+				5B328B0A24EB0403009DA578 /* SFProDisplayMedium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
